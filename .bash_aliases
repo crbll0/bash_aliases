@@ -1,0 +1,5 @@
+alias odoo='sudo service odoo-server'
+alias odoo-log='tail -f /var/log/odoo/odoo-server.log'
+alias oral='odoo restart & odoo-log'
+alias uod='sudo su - odoo -s /bin/bash'
+alias upo='sudo su - postgres'
